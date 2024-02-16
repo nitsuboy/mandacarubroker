@@ -33,7 +33,7 @@ POST /stocks
 
 ```JSON
 {
-  "symbol": "BBAS3",
+  "symbol": "BBS3",
   "companyName": "Banco do Brasil SA",
   "price": 56.97
 }

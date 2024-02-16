@@ -12,5 +12,4 @@ public class MandacarubrokerApplication {
   public static void main(String[] args) {
     SpringApplication.run(MandacarubrokerApplication.class, args);
   }
-
 }
