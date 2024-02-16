@@ -1,8 +1,8 @@
 package com.mandacarubroker.controller;
 
-import com.mandacarubroker.domain.stock.RequestStockDTO;
-import com.mandacarubroker.domain.stock.Stock;
+import com.mandacarubroker.model.Stock;
 import com.mandacarubroker.service.StockService;
+import com.mandacarubroker.request.RequestStockDTO;
 import java.util.List;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;

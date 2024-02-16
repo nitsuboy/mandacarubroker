@@ -1,5 +1,6 @@
 package com.mandacarubroker;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 class MandacarubrokerApplicationTests {
 
 	@Test
-	void contextLoads() {
+	 void main() {
+		MandacarubrokerApplication.main(new String[] {});
+		Assertions.assertTrue(true);
 	}
 
 }

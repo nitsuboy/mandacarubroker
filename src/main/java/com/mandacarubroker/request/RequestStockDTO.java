@@ -1,4 +1,4 @@
-package com.mandacarubroker.domain.stock;
+package com.mandacarubroker.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

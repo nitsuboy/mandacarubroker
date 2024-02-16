@@ -1,8 +1,8 @@
 package com.mandacarubroker.service;
 
-import com.mandacarubroker.domain.stock.RequestStockDTO;
-import com.mandacarubroker.domain.stock.Stock;
-import com.mandacarubroker.domain.stock.StockRepository;
+import com.mandacarubroker.model.Stock;
+import com.mandacarubroker.repository.StockRepository;
+import com.mandacarubroker.request.RequestStockDTO;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.Validation;
