@@ -1,7 +1,5 @@
 package com.mandacarubroker.model;
 
-
-
 import com.mandacarubroker.request.RequestStockDTO;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,7 +12,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 /**
- * Atual Stock.
+ * Stock Model.
  */
 @Table(name = "stock")
 @Entity(name = "stock")

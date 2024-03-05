@@ -4,8 +4,6 @@ import com.mandacarubroker.model.Stock;
 import com.mandacarubroker.repository.StockRepository;
 import com.mandacarubroker.request.RequestStockDTO;
 import jakarta.validation.ConstraintViolationException;
-import org.hibernate.sql.ast.tree.expression.Over;
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -14,7 +12,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Optional;
 
@@ -25,7 +22,6 @@ class StockServiceTest {
   @Mock
   private StockRepository repository;
 
-  @Autowired
   @InjectMocks
   private StockService stockService;
 
